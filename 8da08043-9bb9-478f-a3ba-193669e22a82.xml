@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>This is a job intended to be a workflow example of development contribution.</description>
+    <executionEnabled>true</executionEnabled>
+    <id>8da08043-9bb9-478f-a3ba-193669e22a82</id>
+    <loglevel>INFO</loglevel>
+    <name>FirstExample</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <uuid>8da08043-9bb9-478f-a3ba-193669e22a82</uuid>
+  </job>
+</joblist>
